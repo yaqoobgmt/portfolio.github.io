@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yaqoob-Potfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins0', sans-serif;
+        }
+
+        body {
+            background-color: rgb(4, 68, 77);
+            color: rgb(247, 249, 250);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(51, 74, 83);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 17px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(144, 144, 227);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            margin-top: 50px;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            width: 500px;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .leftSection .btn {
+            color: white;
+            background-color: rgb(67, 98, 110);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .leftSection .buttons{
+            padding: 40px;
+        }
+
+
+        .rightSection img {
+            width: 500px;
+            margin: 10px;
+        }
+
+        .ccolor {
+            color: rgb(178, 140, 122);
+        }
+
+        #element {
+            color: aqua;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            height: 1px;
+            background: aqua;
+            margin: 60px 84px;
+        }
+
+        footer {
+            background-color: rgb(51, 74, 83);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 45px 87px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 220px;
+        }
+        footer .footer-right{
+            text-align: center;;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">yaqoob-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi! <br><br>
+                My name is <span class="ccolor"> Mohmad Yaqoob</span>
+                <div>I am an enthusiastic and dedicated</div>
+                <span id="element"></span>
+                <div class="buttons">
+
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Past Experience</h1>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+
+
+            <div class="footer-first">
+                <h3>ljsdbhjd</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>contact me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>contact me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>contact me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            Copyright © www.mohmadyaqoobportfolio.com | All rights reversed
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Problem solver.', 'Web developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
