@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins0', sans-serif;
+}
+
+body {
+    background-color: rgb(4, 68, 77);
+    color: rgb(247, 249, 250);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 74, 83);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 17px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(144, 144, 227);
+    font-size: 1.03rem;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+
+.leftSection {
+    font-size: 2rem;
+    width: 500px;
+    align-items: center;
+    margin-top: 80px;
+}
+.leftSection .btn {
+    padding: 7px 7px;
+    color: white;
+    background-color: rgb(67, 98, 110);
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.leftSection .buttons{
+    padding: 40px 0;
+}
+
+
+.rightSection img {
+    margin-right: 0;
+    width: 100%;
+}
+
+.ccolor {
+    color: rgb(178, 140, 122);
+}
+
+#element {
+    color: aqua;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    height: 1px;
+    background: aqua;
+    margin: 60px 84px;
+}
+
+
+.leftSection div a:hover{
+    color: aqua;
+    text-decoration: none;
+    color: rgb(119, 193, 228);
+}
+.leftSection div a{
+    text-decoration: none;
+    color: white;
+}
+.leftSection #element{
+    font-size: 20px;
+}
+
+
+/* about */
+
+
+#about{
+    margin: 100px 40px;
+    display: flex;
+}
+#about img{
+    width: 100%;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+} 
+
+.col1{
+    flex-basis: 35%;
+}
+
+/* 
+.col1 img{
+    width: 100%;
+    border-radius: 15px;
+} */
+.col2{
+    flex-basis: 60%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.titles{
+    display: flex;
+}
+.titles li{
+    list-style: none;
+}
+.tab-links{
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+
+/* projectssssssssss */
+#projects{
+    padding: 30px 0;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.project-list div{
+    background-color: rgb(8, 49, 54);
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.project-list h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-list div a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.project-list div:hover{
+    background-color:rgb(34, 34, 73);
+    transform: translate(-10px);
+}
+#projects img{
+    width: 100%;
+}
+
+
+/* contacttttttttttt */
+#contact{
+    margin: 50px 50px 50px;
+}
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-left{
+    flex-basis: 60%;
+
+}
+.contact-left p{
+    margin: 40px;
+}
+
+.social-icons{
+    margin: 30px 15px;
+}
+.contact-left p i{
+    color: aqua;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.social-icons a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    color: #4fcde1;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+   color: #ff004f;
+   transform: translateY(-5px);
+}
+.contact-right form{
+    width: 100%;
+}
+.contact-right .btn{
+    border-radius: 5px;
+    border: 0;
+    padding: 3px 7px;
+}
+form input, form textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    background-color: rgb(42, 82, 87);;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(12, 1, 1);
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 15px 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+/* fffffffotterererer */
+footer {
+    background-color: rgb(51, 74, 83);
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    padding: -10px 80px;
+    justify-content: space-evenly;
+}
+.footer ul li{
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 80px;
+}
+
+footer .footer-right{
+    text-align: center;
+    color: gray;
+}
+
+.footer div{
+    padding: 12px 20px;
+} 
+/* fffffffffor smallllllll screeeeeeeeeeen */
+@media only screen and (max-width: 600px) {
+    .rightSection{
+        
+    }
+}
